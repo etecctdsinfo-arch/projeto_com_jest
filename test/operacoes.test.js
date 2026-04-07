@@ -8,3 +8,8 @@ test("Testar a função somar", ()=>{
     expect(resultado).toBe(105)
 } )
 
+test("Testar a função subtrair", ()=>{
+    // expectativa de retorno 15
+    let resultado = subtrair(100, 5)
+    expect(resultado).toBe(95)
+} )
